@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garden House</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div id="main">
+        <div class="popup">
+            <div class="popupBody">
+                <div class="background"></div>
+                <div class="popupCont">
+                    <div class="popupClose">
+                        <img src="img/close.png">
+                    </div>
+                    <div class="popupTitle">Перший проект</div>
+                    <div class="popupImg">
+                        <img class="popupImgSrc" src="img/pr1.jpg">
+                    </div>
+                    <div class="popupText">
+                        Сад для молодої сім'ї задуманий у стилі лаунж (лаунж - дозвільне проведення часу).
+                        Компактна територія відокремлена від сусідніх ділянок стриженими огорожами із вічнозелених рослин та сприймається як єдина зелена кімната. «Серце» саду – зона відпочинку сучасного планування з альтанкою та декоративною водоймою. Рух води, створюваний гейзерами, підтримує атмосферу спокою, розслабленості та комфорту.
+                        У саду багато вічнозелених рослин, які весь рік зберігають структуру та форму. Однак кожну пору року відзначено яскравим сезонним цвітінням — сакури, ірисів, гортензій та анемон.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------------------------------HEADER--------------------------------------->
+        <div id="header">
+            <div class="subDiv">
+                <div id="logo">
+                    <img id="logotype" src="img/LOGO.png">
+                </div>
+                <div id="menu">       
+                    <ul id="ulMenu">
+                        <li><a href="#preview">Головна</a></li>
+                        <li><a href="#reasons">Чому ми</a></li>
+                        <li><a href="#ourPortfolio">Наші роботи</a></li>
+                        <li><a href="#employeers">Команда</a></li>
+                        <li><a href="#contact">Контакт</a></li>
+                        <li><a href="#map">Ми на мапі</a></li>
+                    </ul>
+                    <div id="hideMenu">              
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                <img src="img/menu.png" id="menuBtn">
+                            </button>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                                <div class="offcanvas-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                        <li class="nav-item">
+                                            <a class = "nav-link" aria-current="page" style="color:#f4f8c7;" href="#preview">Головна</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class = "nav-link" href="#reasons">Чому ми</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class = "nav-link" href="#employeers">Команда</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class = "nav-link" href="#ourPortfolio">Наші роботи</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class = "nav-link" href="#contact">Контакт</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class = "nav-link" href="#map">Ми на мапі</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------------------------------MAIN--------------------------------------->
+        <div id="preview">
+            <div class="subPreview">
+                <div class="textPreview">
+                    <span>
+                        Вітаємо Вас,
+                    </span>
+                    <p>ми дуже раді, що ваше рішення впало на наш сайт та нашу компанію. Тут ви зможете докладніше дізнатися про те, хто ми, чим займаємося, побачите наші роботи, зрозумієте чому ми найкращі, де знаходимося, а також як зв'язатися з нами.</p>
+                </div>
+                <div class="sliderPreview">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="img/1.jpg" class="imgs d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/2.jpg" class="imgs d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/3.jpg" class="imgs d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------------------------------------REASONS--------------------------------------------->
+        <div id="reasons">
+            <div class="subReasons">
+                <div class="reasonItem reasonItem_first">
+                    <div class="subReasonItem">
+                        <div class="reasonIcon">
+                            <div>
+                                <img src="img/door.png" alt="">
+                            </div>
+                        </div>
+                        <div class="reasonText">
+                            <p>
+                                Наші двері завжди відкриті для вас, 
+                                ваших замовлень та пропозицій. Наші 
+                                менеджери працюють 24/7  задля 
+                                забезпечення ваших потреб 
+                                у зручному сервісі з влаштування 
+                                вашої житлової площі.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reasonItem reasonItem_second">
+                    <div class="subReasonItem">
+                        <div class="reasonIcon">
+                            <div>
+                                <img src="img/timer.png" alt="">
+                            </div>
+                        </div>
+                        <div class="reasonText">
+                            <p>
+                                Ваш час є пріоритетом для нас. Тому ми 
+                                робимо наші проекти максимально 
+                                швидко і якісно, ніякої бюрократії 
+                                та іншої паперової тяганини. 
+                                Все заради задоволення клієнтів.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reasonItem reasonItem_third">
+                    <div class="subReasonItem">
+                        <div class="reasonIcon">
+                            <div>
+                                <img src="img/done.png" alt="">
+                            </div>
+                        </div>
+                        <div class="reasonText">
+                            <p>
+                                Ми обіцяємо, що ваш проект буде обов'язк- 
+                                ово завершений з успіхом, для більшої 
+                                впевненості в нас ви можете попросити
+                                список завершених проектів і ми вам 
+                                його надамо. 
+                                Максимально прозорі для вас!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------OUR PORTFOLIO---------------------------------->
+        <div style="width: 100%; background-color:#1aa96d; height: 30px;"></div>
+
+        <div id="ourPortfolio">
+            <div class="subPortfolio">
+                <div class="carder card1">
+                    <div class="subCard">
+                        <div class="cardImg cardImg1"></div>
+                        <div class="cardText">
+                            <h5>Перший проект</h5>
+                            <p>Один  з перших  наших проектів, клієнт
+                                просив щось футуристичне та з мінімаліс-
+                                тичним стилем. Що ж, ми виконуємо 
+                                будь-яке бажання. Якщо хочете подиви-
+                                тися про проєкт детальніше тисніть на
+                                кнопку...
+                            </p>
+                            <button class="readMoreBtn popup1">Детальніше</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carder card2">
+                    <div class="subCard">
+                        <div class="cardImg cardImg2"></div>
+                        <div class="cardText">
+                            <h5>Другий проект</h5>
+                            <p>Ми були здивовані коли до нас звернувся
+                                клієнт, що мав достатьно фінансів для
+                                того, шоб найняти іншу команду  ланд-
+                                шафтних дизайнерів. Якщо хочете подиви-
+                                тися детальніше, тисніть на кнопку...
+                            </p>
+                            <button class="readMoreBtn popup2">Детальніше</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carder card3">
+                    <div class="subCard">
+                        <div class="cardImg cardImg3"></div>
+                        <div class="cardText">
+                            <h5>Третій проект</h5>
+                            <p>Дуже творча та природолюбива людина
+                                замовила цей дизайн, тому ми не втрачаю-
+                                чи ні секунди, приступили до проєктування. 
+                                Якщо хочете подивитися про проєкт детальніше 
+                                тисніть на кнопку...
+                            </p>
+                            <button class="readMoreBtn popup3">Детальніше</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------------------------------------------OUR PEOPLE---------------------------------------->
+        <div style="width: 100%; background-color:#1aa96d; height: 30px;"></div>
+
+        <div id="employeers">
+            <div class="subEmp">
+                <div class="empTitle"><span>НАШІ ПРАЦІВНИКИ</span></div>
+                <div class="empGallery">
+                    <div class="employeer e1">
+                        <div class="empImg">
+                            <img src="img/W-12.jpg" alt="">        
+                        </div>
+                        <div class="empName">
+                            <span>Руслан</span>
+                        </div>
+                        <div class="empProf">
+                            <span>помічник ланд. дизайнера</span>
+                        </div>
+                    </div>
+                    <div class="employeer e2">
+                        <div class="empImg">
+                            <img src="img/W-86.jpg" alt="">    
+                        </div>
+                        <div class="empName">
+                            <span>Катерина</span>
+                        </div>
+                        <div class="empProf">
+                            <span>ландшафтний дизайнер</span>
+                        </div>
+                    </div>
+                    <div class="employeer e3">
+                        <div class="empImg">
+                            <img src="img/W-95.jpg">
+                        </div>
+                        <div class="empName">
+                            <span>Катерина</span>
+                        </div>
+                        <div class="empProf">
+                            <span>менеджер проектів</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-----------------------------------------CONTACT WITH US-------------------------------------------------->
+        <div style="width: 100%; background-color:#1aa96d; height: 30px;"></div>
+
+        <div id="contact">
+            <div class="subContact">
+                <div class="personData">
+                    <div class="pName">
+                        <span>Ім'я</span>
+                        <input type="text" id="clientName">
+                    </div>
+                    <div class="pPhone">
+                        <span>Телефон</span>
+                        <input type="tel">
+                    </div>
+                    <div class="pEmail">
+                        <span>Email</span>
+                        <input type="email">
+                    </div>
+                </div>
+                <div class="personMessage">
+                    <div class="pMessage">
+                        <span>Повідомлення</span>
+                        <textarea id="mes"></textarea>
+                    </div>
+                    <div class="pBtn">
+                        <button onclick="Send()">Відправити повідомлення</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!------------------------------------------------MAP------------------------------------------------------>
+        <div style="width: 100%; background-color:#1aa96d; height: 30px;"></div>
+
+        <div id="map">
+            <div class="subMap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d162472.3327248333!2d30.107903480529792!3d50.48522779195071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cbb0be3b0a89%3A0xcbfdbe9dd4553457!2zR2FyZG5lciAo0JPQsNGA0LTQvdC10YApINCb0LDQvdC00YjQsNGE0YLQvdC40Lkg0LTQuNC30LDQudC9!5e0!3m2!1sru!2sus!4v1670441545898!5m2!1sru!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <!---->
+        <footer>
+            <div class="subFooter">
+                <div class="copyRight">
+                    <div>
+                        <span>
+                            Garden House Company
+                        </span>
+                        
+                        <span>
+                            ©2022-2023
+                        </span>
+                    </div>
+                    
+                </div>
+                <div class="phones">
+                    <div class="copyRight">
+                        <div>
+                            <span>
+                                Телефони для зв'язку:
+                            </span>
+                            <span>
+                                +380 97 834 5634
+                            </span>
+                            <span>+380 66 454 6568</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="topButton">
+                    <button>
+                        <span>
+                            <a style="text-decoration: none; color:#f4f8c7;" href="#header">Вирушити нагору</a>
+                        </span>
+                        <a style="text-decoration: none;" href="#header"><img src="img/up.png" alt=""></a>
+                    </button>
+                </div>
+            </div>
+        </footer>
+        <div class="popup">
+            <div class="popupBody">
+                <div class="popupCont">
+                    <div class="popupClose">
+                        <img src="img/close.png">
+                    </div>
+                    <div class="popupTitle">Перший проект</div>
+                    <div class="popupImg">
+                        <img src="img/pr1.jpg">
+                    </div>
+                    <div class="popupText">
+                        Сад для молодої сім'ї задуманий у стилі лаунж (лаунж - дозвільне проведення часу).
+                        Компактна територія відокремлена від сусідніх ділянок стриженими огорожами із вічнозелених рослин та сприймається як єдина зелена кімната. «Серце» саду – зона відпочинку сучасного планування з альтанкою та декоративною водоймою. Рух води, створюваний гейзерами, підтримує атмосферу спокою, розслабленості та комфорту.
+                        У саду багато вічнозелених рослин, які весь рік зберігають структуру та форму. Однак кожну пору року відзначено яскравим сезонним цвітінням — сакури, ірисів, гортензій та анемон.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+
+
+    <!--SCRIPTS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
